@@ -5,7 +5,7 @@ description = "MCP server with GitHub Actions integration and Prompts"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "mcp[cli]>=1.0.0",
+    "mcp[cli]>=1.30.0,<2",
     "aiohttp>=3.10.0,<4.0.0",
 ]
 
